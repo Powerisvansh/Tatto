@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ink & Steel — Premium custom tattoo studio in Brooklyn, NY. Traditional, realism, fine line, Japanese, and blackwork since 2015." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <meta property="og:title" content="Ink & Steel — Tattoo Studio" />
+  <meta property="og:description" content="Custom tattoo artistry in a sterile, professional environment. Every needle stroke is a masterpiece." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1561128290-7f1915c0ad6c?w=1200&auto=format&fit=crop&q=80" />
+  <title>Ink & Steel — Premium Tattoo Studio</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%238b1a1a'/%3E%3Ctext x='16' y='22' font-size='18' text-anchor='middle' fill='%23fff' font-family='serif'%3E✧%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-content">
+      <div class="loader-spinner"></div>
+      <span class="loader-text">INK & STEEL</span>
+    </div>
+  </div>
+
+  <!-- SCROLL PROGRESS -->
+  <div id="progress" role="progressbar" aria-label="Scroll progress"></div>
+
+  <!-- CURSOR GLOW -->
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <a href="#home" class="nav-brand" aria-label="Ink & Steel Home">INK & STEEL</a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#artists">Artists</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#styles">Styles</a></li>
+      <li><a href="#booking">Book Now</a></li>
+    </ul>
+    <button id="menuBtn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero parallax-section" id="home" aria-label="Hero" data-speed="-0.15">
+    <div class="parallax-inner">
+    <div class="hero-overlay"></div>
+    <div class="ink-drip" aria-hidden="true"></div>
+    <div class="ink-drip ink-drip--2" aria-hidden="true"></div>
+    <div class="tattoo-machine" aria-hidden="true">
+      <svg viewBox="0 0 80 160" class="machine-svg">
+        <line x1="40" y1="10" x2="40" y2="140" stroke="#8b1a1a" stroke-width="1.5" opacity="0.25"/>
+        <circle cx="40" cy="10" r="6" fill="none" stroke="#8b1a1a" stroke-width="1.5" opacity="0.25"/>
+        <line x1="28" y1="30" x2="52" y2="30" stroke="#8b1a1a" stroke-width="1.5" opacity="0.25"/>
+        <polygon points="40,140 36,150 44,150" fill="#8b1a1a" opacity="0.2" class="needle-tip"/>
+        <line x1="40" y1="10" x2="40" y2="140" stroke="#c4a35a" stroke-width="0.5" opacity="0.12" class="needle-glow"/>
+      </svg>
+    </div>
+    <div class="tattoo-machine tattoo-machine--2" aria-hidden="true">
+      <svg viewBox="0 0 80 160" class="machine-svg">
+        <line x1="40" y1="10" x2="40" y2="140" stroke="#8b1a1a" stroke-width="1.5" opacity="0.2"/>
+        <circle cx="40" cy="10" r="6" fill="none" stroke="#8b1a1a" stroke-width="1.5" opacity="0.2"/>
+        <line x1="28" y1="30" x2="52" y2="30" stroke="#8b1a1a" stroke-width="1.5" opacity="0.2"/>
+        <polygon points="40,140 36,150 44,150" fill="#8b1a1a" opacity="0.15" class="needle-tip"/>
+      </svg>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag">Est. 2015 &middot; Premium Tattoo Studio</p>
+      <h1>Wear Your<br/><span>Story</span></h1>
+      <p class="hero-sub">Custom tattoo artistry in a sterile, professional environment. <br/>Every needle stroke is a masterpiece.</p>
+      <div class="hero-btns">
+        <a href="#booking" class="btn-primary">Book Consultation</a>
+        <a href="#gallery" class="btn-outline">View Gallery</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hstat"><strong class="counter" data-target="5000">0</strong><span>Tattoos Done</span></div>
+        <div class="hstat"><strong class="counter" data-target="8">0</strong><span>Artists</span></div>
+        <div class="hstat"><strong class="counter" data-target="49" data-suffix="">4.9</strong><span>Rating</span></div>
+        <div class="hstat"><strong class="counter" data-target="10">0</strong><span>Years</span></div>
+      </div>
+    </div>
+    <div class="scroll-hint" aria-hidden="true">
+      <span></span>
+    </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Custom Tattoos</span><span>&#10027;</span>
+      <span>Piercings</span><span>&#10027;</span>
+      <span>Cover-ups</span><span>&#10027;</span>
+      <span>Fine Line</span><span>&#10027;</span>
+      <span>Traditional</span><span>&#10027;</span>
+      <span>Realism</span><span>&#10027;</span>
+      <span>Japanese</span><span>&#10027;</span>
+      <span>Blackwork</span><span>&#10027;</span>
+      <span>Custom Tattoos</span><span>&#10027;</span>
+      <span>Piercings</span><span>&#10027;</span>
+      <span>Cover-ups</span><span>&#10027;</span>
+      <span>Fine Line</span><span>&#10027;</span>
+      <span>Traditional</span><span>&#10027;</span>
+      <span>Realism</span><span>&#10027;</span>
+      <span>Japanese</span><span>&#10027;</span>
+      <span>Blackwork</span><span>&#10027;</span>
+    </div>
+  </div>
+
+  <!-- ARTISTS -->
+  <section class="artists-section parallax-section" id="artists" aria-label="Artists" data-speed="0.08">
+    <div class="parallax-inner">
+    <div class="section-head">
+      <p class="eyebrow">The Artists</p>
+      <h2>Meet Our Crew</h2>
+    </div>
+    <div class="artists-grid">
+      <article class="artist-card">
+        <div class="artist-img"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80" alt="Jake Ryder portrait" loading="lazy"/></div>
+        <h3>Jake Ryder</h3>
+        <span class="artist-role">Founder &middot; Traditional</span>
+        <p>15+ years. Master of bold lines and classic Americana.</p>
+        <div class="artist-tags"><span>Traditional</span><span>Old School</span></div>
+      </article>
+      <article class="artist-card">
+        <div class="artist-img"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80" alt="Marcus Chen portrait" loading="lazy"/></div>
+        <h3>Marcus Chen</h3>
+        <span class="artist-role">Realism Specialist</span>
+        <p>Hyper-realistic portraits, animals, and movie characters.</p>
+        <div class="artist-tags"><span>Realism</span><span>Black &amp; Grey</span></div>
+      </article>
+      <article class="artist-card">
+        <div class="artist-img"><img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&auto=format&fit=crop&q=80" alt="Lena Orlov portrait" loading="lazy"/></div>
+        <h3>Lena Orlov</h3>
+        <span class="artist-role">Fine Line Expert</span>
+        <p>Delicate, minimalist designs with ultra-fine needle work.</p>
+        <div class="artist-tags"><span>Fine Line</span><span>Minimalist</span></div>
+      </article>
+      <article class="artist-card">
+        <div class="artist-img"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80" alt="Sasha Voss portrait" loading="lazy"/></div>
+        <h3>Sasha Voss</h3>
+        <span class="artist-role">Japanese &amp; Neo-Traditional</span>
+        <p>Irezumi-inspired pieces with vibrant color work.</p>
+        <div class="artist-tags"><span>Japanese</span><span>Neo-Trad</span></div>
+      </article>
+    </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section" id="gallery" aria-label="Gallery">
+    <div class="section-head">
+      <p class="eyebrow">Portfolio</p>
+      <h2>Our Work</h2>
+    </div>
+    <div class="gallery-grid">
+      <button class="g-item tall" data-src="https://images.unsplash.com/photo-1561128290-7f1915c0ad6c?w=1200&auto=format&fit=crop&q=80" aria-label="View Traditional Sleeve">
+        <img src="https://images.unsplash.com/photo-1561128290-7f1915c0ad6c?w=800&auto=format&fit=crop&q=80" alt="Traditional Sleeve" loading="lazy"/>
+        <div class="g-label">Traditional Sleeve</div>
+      </button>
+      <button class="g-item" data-src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=1200&auto=format&fit=crop&q=80" aria-label="View Fine Line">
+        <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&auto=format&fit=crop&q=80" alt="Fine Line tattoo" loading="lazy"/>
+        <div class="g-label">Fine Line</div>
+      </button>
+      <button class="g-item" data-src="https://images.unsplash.com/photo-1611501275019-9b5dda5a5301?w=1200&auto=format&fit=crop&q=80" aria-label="View Realism">
+        <img src="https://images.unsplash.com/photo-1611501275019-9b5dda5a5301?w=600&auto=format&fit=crop&q=80" alt="Realism tattoo" loading="lazy"/>
+        <div class="g-label">Realism</div>
+      </button>
+      <button class="g-item wide" data-src="https://images.unsplash.com/photo-1583241800698-e8f3c2c585a4?w=1200&auto=format&fit=crop&q=80" aria-label="View Japanese Backpiece">
+        <img src="https://images.unsplash.com/photo-1583241800698-e8f3c2c585a4?w=900&auto=format&fit=crop&q=80" alt="Japanese Backpiece" loading="lazy"/>
+        <div class="g-label">Japanese Backpiece</div>
+      </button>
+      <button class="g-item" data-src="https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?w=1200&auto=format&fit=crop&q=80" aria-label="View Blackwork">
+        <img src="https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?w=600&auto=format&fit=crop&q=80" alt="Blackwork tattoo" loading="lazy"/>
+        <div class="g-label">Blackwork</div>
+      </button>
+      <button class="g-item" data-src="https://images.unsplash.com/photo-1590595903997-1d20b8cc8d9e?w=1200&auto=format&fit=crop&q=80" aria-label="View Neo-Traditional">
+        <img src="https://images.unsplash.com/photo-1590595903997-1d20b8cc8d9e?w=600&auto=format&fit=crop&q=80" alt="Neo-Traditional tattoo" loading="lazy"/>
+        <div class="g-label">Neo-Traditional</div>
+      </button>
+      <button class="g-item" data-src="https://images.unsplash.com/photo-1596728368297-c85e7c0e7b4e?w=1200&auto=format&fit=crop&q=80" aria-label="View Script">
+        <img src="https://images.unsplash.com/photo-1596728368297-c85e7c0e7b4e?w=600&auto=format&fit=crop&q=80" alt="Script tattoo" loading="lazy"/>
+        <div class="g-label">Script</div>
+      </button>
+      <button class="g-item tall" data-src="https://images.unsplash.com/photo-1590247813697-c1d01cd173bd?w=1200&auto=format&fit=crop&q=80" aria-label="View Cover-up">
+        <img src="https://images.unsplash.com/photo-1590247813697-c1d01cd173bd?w=800&auto=format&fit=crop&q=80" alt="Cover-up tattoo" loading="lazy"/>
+        <div class="g-label">Cover-up</div>
+      </button>
+    </div>
+    <div class="gallery-grid second-row">
+      <button class="g-item" data-src="https://images.pexels.com/photos/4121065/pexels-photo-4121065.jpeg?auto=compress&cs=tinysrgb&w=1200" aria-label="View Henna Detail">
+        <img src="https://images.pexels.com/photos/4121065/pexels-photo-4121065.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Henna tattoo detail" loading="lazy"/>
+        <div class="g-label">Henna Detail</div>
+      </button>
+      <button class="g-item tall" data-src="https://images.pexels.com/photos/1304469/pexels-photo-1304469.jpeg?auto=compress&cs=tinysrgb&w=1200" aria-label="View Line Work">
+        <img src="https://images.pexels.com/photos/1304469/pexels-photo-1304469.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Tattoo line work" loading="lazy"/>
+        <div class="g-label">Line Work</div>
+      </button>
+      <button class="g-item" data-src="https://images.pexels.com/photos/17803007/pexels-photo-17803007.jpeg?auto=compress&cs=tinysrgb&w=1200" aria-label="View Portrait">
+        <img src="https://images.pexels.com/photos/17803007/pexels-photo-17803007.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Portrait tattoo" loading="lazy"/>
+        <div class="g-label">Portrait</div>
+      </button>
+      <button class="g-item wide" data-src="https://images.pexels.com/photos/15130380/pexels-photo-15130380.jpeg?auto=compress&cs=tinysrgb&w=1200" aria-label="View In Progress">
+        <img src="https://images.pexels.com/photos/15130380/pexels-photo-15130380.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Tattoo in progress" loading="lazy"/>
+        <div class="g-label">In Progress</div>
+      </button>
+      <button class="g-item" data-src="https://images.pexels.com/photos/10552040/pexels-photo-10552040.jpeg?auto=compress&cs=tinysrgb&w=1200" aria-label="View Watercolor">
+        <img src="https://images.pexels.com/photos/10552040/pexels-photo-10552040.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Watercolor tattoo" loading="lazy"/>
+        <div class="g-label">Watercolor</div>
+      </button>
+      <button class="g-item" data-src="https://images.pexels.com/photos/9497567/pexels-photo-9497567.jpeg?auto=compress&cs=tinysrgb&w=1200" aria-label="View Floral">
+        <img src="https://images.pexels.com/photos/9497567/pexels-photo-9497567.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Floral tattoo" loading="lazy"/>
+        <div class="g-label">Floral</div>
+      </button>
+      <button class="g-item" data-src="https://images.pexels.com/photos/6593509/pexels-photo-6593509.jpeg?auto=compress&cs=tinysrgb&w=1200" aria-label="View Studio Detail">
+        <img src="https://images.pexels.com/photos/6593509/pexels-photo-6593509.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Studio tattoo detail" loading="lazy"/>
+        <div class="g-label">Studio Work</div>
+      </button>
+      <button class="g-item tall" data-src="https://images.pexels.com/photos/1278566/pexels-photo-1278566.jpeg?auto=compress&cs=tinysrgb&w=1200" aria-label="View Ornamental">
+        <img src="https://images.pexels.com/photos/1278566/pexels-photo-1278566.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Ornamental tattoo" loading="lazy"/>
+        <div class="g-label">Ornamental</div>
+      </button>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox-prev" aria-label="Previous">&#8249;</button>
+    <button class="lightbox-next" aria-label="Next">&#8250;</button>
+    <div class="lightbox-content">
+      <img src="" alt="Gallery image" />
+      <div class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- STYLES -->
+  <section class="styles-section parallax-section" id="styles" aria-label="Styles" data-speed="-0.05">
+    <div class="parallax-inner">
+    <div class="section-head">
+      <p class="eyebrow">Specialties</p>
+      <h2>Styles We Do</h2>
+    </div>
+    <div class="styles-grid">
+      <article class="style-card">
+        <div class="style-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M24 4L28 16L40 16L30 24L34 36L24 28L14 36L18 24L8 16L20 16L24 4Z" fill="#c4a35a" opacity="0.8"/></svg>
+        </div>
+        <h3>Traditional</h3>
+        <p>Bold lines, classic flash, timeless Americana designs.</p>
+      </article>
+      <article class="style-card">
+        <div class="style-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="#c4a35a" stroke-width="2" opacity="0.8"/><circle cx="24" cy="24" r="10" fill="#c4a35a" opacity="0.4"/><circle cx="24" cy="24" r="4" fill="#c4a35a" opacity="0.8"/></svg>
+        </div>
+        <h3>Blackwork</h3>
+        <p>Solid black shading, geometric patterns, dotwork.</p>
+      </article>
+      <article class="style-card">
+        <div class="style-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M24 8C24 8 16 16 16 24C16 28.4183 19.5817 32 24 32C28.4183 32 32 28.4183 32 24C32 16 24 8 24 8Z" fill="#c4a35a" opacity="0.6"/><path d="M24 32V44" stroke="#c4a35a" stroke-width="2" opacity="0.8"/></svg>
+        </div>
+        <h3>Realism</h3>
+        <p>Photo-realistic portraits, animals, and hyper-detailed work.</p>
+      </article>
+      <article class="style-card">
+        <div class="style-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M10 38L24 6L38 38H10Z" stroke="#c4a35a" stroke-width="2" fill="#c4a35a" opacity="0.3"/><circle cx="24" cy="28" r="6" stroke="#c4a35a" stroke-width="2" opacity="0.8"/></svg>
+        </div>
+        <h3>Japanese</h3>
+        <p>Irezumi, koi, dragons, cherry blossoms — full body suits.</p>
+      </article>
+      <article class="style-card">
+        <div class="style-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M4 44L24 4L44 44H4Z" stroke="#c4a35a" stroke-width="1.5" fill="#c4a35a" opacity="0.2"/><line x1="24" y1="16" x2="24" y2="32" stroke="#c4a35a" stroke-width="2" opacity="0.8"/></svg>
+        </div>
+        <h3>Fine Line</h3>
+        <p>Delicate, minimalist, single-needle precision work.</p>
+      </article>
+      <article class="style-card">
+        <div class="style-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M8 8L40 40" stroke="#c4a35a" stroke-width="2" opacity="0.6"/><path d="M40 8L8 40" stroke="#c4a35a" stroke-width="2" opacity="0.6"/><circle cx="24" cy="24" r="12" stroke="#c4a35a" stroke-width="2" opacity="0.8"/></svg>
+        </div>
+        <h3>Cover-ups</h3>
+        <p>Transform old, unwanted tattoos into fresh artwork.</p>
+      </article>
+    </div>
+    </div>
+  </section>
+
+  <!-- QUOTE BANNER -->
+  <aside class="quote-banner" aria-label="Studio quote">
+    <div class="quote-content">
+      <blockquote>&ldquo;Your skin is a canvas. Make it a masterpiece.&rdquo;</blockquote>
+      <cite>&mdash; Ink &amp; Steel Studio</cite>
+    </div>
+  </aside>
+
+  <!-- BOOKING -->
+  <section class="booking-section" id="booking" aria-label="Booking">
+    <div class="booking-container">
+      <div class="booking-info">
+        <p class="eyebrow">Book Now</p>
+        <h2>Start Your<br/>Next Piece</h2>
+        <p>Ready to get inked? Fill out the form and we&rsquo;ll get back to you within 24 hours to schedule your consultation.</p>
+        <div class="contact-details">
+          <div><span aria-hidden="true">&#x1F4CD;</span><div><strong>Address</strong><p>42 Needle Street, Brooklyn, NY</p></div></div>
+          <div><span aria-hidden="true">&#x1F4DE;</span><div><strong>Phone</strong><p>+1 (718) 555-INK1</p></div></div>
+          <div><span aria-hidden="true">&#x1F550;</span><div><strong>Hours</strong><p>Tue&ndash;Sat: 12PM &ndash; 9PM</p></div></div>
+          <div><span aria-hidden="true">&#x1F4E7;</span><div><strong>Email</strong><p>ink@inkandsteel.com</p></div></div>
+        </div>
+      </div>
+      <form class="booking-form" id="bookForm" novalidate>
+        <div class="form-group">
+          <input type="text" placeholder="Full Name" required aria-label="Full Name" />
+          <span class="form-error"></span>
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Email Address" required aria-label="Email Address" />
+          <span class="form-error"></span>
+        </div>
+        <div class="form-group">
+          <input type="tel" placeholder="Phone Number" required aria-label="Phone Number" />
+          <span class="form-error"></span>
+        </div>
+        <div class="form-group">
+          <select required aria-label="Choose Style">
+            <option value="" disabled selected>Choose Style</option>
+            <option>Traditional</option>
+            <option>Blackwork</option>
+            <option>Realism</option>
+            <option>Japanese</option>
+            <option>Fine Line</option>
+            <option>Cover-up</option>
+            <option>Custom Design</option>
+          </select>
+          <span class="form-error"></span>
+        </div>
+        <div class="form-group">
+          <select aria-label="Preferred Artist">
+            <option value="" disabled selected>Preferred Artist (Optional)</option>
+            <option>Jake Ryder</option>
+            <option>Marcus Chen</option>
+            <option>Lena Orlov</option>
+            <option>Sasha Voss</option>
+            <option>No Preference</option>
+          </select>
+          <span class="form-error"></span>
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Describe your idea... size, placement, references" rows="4" aria-label="Describe your idea"></textarea>
+          <span class="form-error"></span>
+        </div>
+        <button type="submit" class="btn-primary full">Send Request</button>
+        <p id="bookMsg" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- AFTERCARE -->
+  <section class="aftercare-section" aria-label="Aftercare">
+    <div class="section-head">
+      <p class="eyebrow">Aftercare</p>
+      <h2>Healing Guide</h2>
+    </div>
+    <div class="aftercare-grid">
+      <article class="care-card">
+        <span class="care-num">01</span>
+        <h3>Clean &amp; Moisturize</h3>
+        <p>Wash gently with antibacterial soap 2x daily. Apply thin layer of ointment.</p>
+      </article>
+      <article class="care-card">
+        <span class="care-num">02</span>
+        <h3>Don&rsquo;t Scratch</h3>
+        <p>Itching is normal. Pat or slap the area gently &mdash; never pick at scabs.</p>
+      </article>
+      <article class="care-card">
+        <span class="care-num">03</span>
+        <h3>Avoid Sun &amp; Water</h3>
+        <p>No swimming, soaking, or direct sunlight for 2&ndash;3 weeks.</p>
+      </article>
+      <article class="care-card">
+        <span class="care-num">04</span>
+        <h3>Stay Hydrated</h3>
+        <p>Healthy skin heals faster. Drink water and avoid alcohol.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <h3>INK &amp; STEEL</h3>
+        <p>Premium tattoo artistry since 2015.<br/>Sterile &middot; Professional &middot; Custom.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+          <a href="#" aria-label="Facebook" target="_blank" rel="noopener">FB</a>
+          <a href="#" aria-label="YouTube" target="_blank" rel="noopener">YT</a>
+          <a href="#" aria-label="Pinterest" target="_blank" rel="noopener">PI</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <strong>Contact</strong>
+        <a href="#">Brooklyn, NY</a>
+        <a href="tel:+1718555INK1">+1 (718) 555-INK1</a>
+        <a href="mailto:ink@inkandsteel.com">ink@inkandsteel.com</a>
+        <a href="#">Tue&ndash;Sat 12PM&ndash;9PM</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Ink &amp; Steel Tattoo Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button id="backToTop" aria-label="Back to top">&#8593;</button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
