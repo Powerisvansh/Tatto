@@ -57,6 +57,12 @@
 | 🏷️ **Infinite Marquee** | Horizontal scrolling ticker of tattoo styles |
 | 🔥 **Mobile Hamburger** | Slide-in mobile nav with animated hamburger-to-close |
 | ⬆️ **Back to Top** | Floating button appears after scrolling past hero |
+| ⌛ **Loading Screen** | Animated spinner + brand reveal on page load |
+| 📊 **Scroll Progress Bar** | Top-of-page progress indicator synced to scroll |
+| 🎬 **Hero Animations** | Background zoom, ink drip SVGs, tattoo machine with needle stroke |
+| 🌫️ **Noise Texture** | SVG fractal noise overlay across entire page |
+| 🎯 **Live Form Validation** | Per-field validation on blur with success/error states |
+| 💬 **Quote Banner** | Centered blockquote with decorative line flourishes |
 
 <br/>
 
@@ -121,7 +127,8 @@
 │               DOM manipulation, form validation      │
 │  🔤 Fonts   → Archivo Black (headings)              │
 │               Inter (body)                           │
-│               Font Awesome (icons)                   │
+│  🎨 Icons   → Inline SVGs (style cards), HTML       │
+│               entities (marquee ★, contact icons)    │
 │  🖼️ Media   → Unsplash / Pexels stock photography  │
 └─────────────────────────────────────────────────────┘
 ```
@@ -140,7 +147,21 @@
 | 6 | **Styles** | 6 style cards with SVG icons — Traditional, Blackwork, Realism, etc. |
 | 7 | **Booking** | Contact info + validated form (name, email, phone, style, artist, description) |
 | 8 | **Aftercare** | 4 care tips: Clean, Don't Scratch, Avoid Sun, Stay Hydrated |
-| 9 | **Footer** | Social links, contact details, copyright |
+| 9 | **Quote** | Studio motto blockquote with decorative line flourishes |
+| 10 | **Footer** | Social links (IG, FB, YT, PI), contact details, copyright |
+
+<br/>
+
+## ✦ Data Attributes
+
+Custom `data-*` attributes used in the HTML for JS-driven behavior:
+
+| Attribute | Applied To | Purpose |
+|-----------|-----------|---------|
+| `data-speed` | `.parallax-section` | Parallax scroll speed (float, e.g. `-0.15`) |
+| `data-target` | `.counter` | Target number for animated counter |
+| `data-suffix` | `.counter` | Counter suffix (default `+`; empty for `4.9`) |
+| `data-src` | `.g-item` | High-res image URL for lightbox viewer |
 
 <br/>
 
@@ -163,9 +184,16 @@ No build step required. Open `index.html` in any modern browser and you're good 
 
 ```
 Tatto/
-├── index.html       # Main HTML page
-├── style.css        # All styles
-├── script.js        # All JavaScript
+├── index.html       # Main HTML page — 10 sections (loader, hero, marquee,
+│                    #   artists, gallery+lightbox, styles, quote, booking,
+│                    #   aftercare, footer), inline SVGs, ARIA landmarks
+├── style.css        # All styles — 714 lines, custom properties, Grid/Flexbox,
+│                    #   8 keyframe animations, SVG noise filter, backdrop-filter,
+│                    #   4 responsive breakpoints (1100–480px), custom scrollbar
+├── script.js        # All JS — 258 lines, cursor lerp (rAF), parallax,
+│                    #   IntersectionObserver (counters + reveals), lightbox
+│                    #   with keyboard nav, form validation (blur + submit),
+│                    #   mobile hamburger menu, scroll progress bar
 └── README.md        # You are here
 ```
 
@@ -173,7 +201,7 @@ Tatto/
 
 ## ✦ License
 
-Distributed under the **MIT License**. See `LICENSE` for more information.
+Distributed under the **MIT License**.
 
 <br/>
 
