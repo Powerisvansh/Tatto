@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
   <img src="https://img.shields.io/badge/license-MIT-cf4646?style=flat-square" alt="MIT">
   <img src="https://img.shields.io/badge/PRs-welcome-8b1a1a?style=flat-square" alt="PRs Welcome">
+  <a href="https://powerisvansh.github.io/Tatto/"><img src="https://img.shields.io/badge/live-demo-cf4646?style=flat-square&logo=githubpages" alt="Live Demo"></a>
 
   <br/><br/>
 
@@ -38,6 +39,12 @@
 ## ✦ Overview
 
 **Ink & Steel** is a hand-crafted, single-page website for a fictional Brooklyn-based tattoo studio. Built from scratch with vanilla HTML, CSS, and JavaScript — no frameworks, no build tools, no dependencies. Every animation, interaction, and layout is custom-tailored to reflect the studio's gritty, industrial aesthetic.
+
+<br/>
+
+## ✦ Live Demo
+
+**[→ powerisvansh.github.io/Tatto](https://powerisvansh.github.io/Tatto/)**
 
 <br/>
 
