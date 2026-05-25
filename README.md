@@ -1,65 +1,146 @@
 <div align="center">
-  <br/>
-  <img src="https://img.shields.io/badge/status-live-brightgreen?style=flat-square" alt="Status">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/license-MIT-cf4646?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/PRs-welcome-8b1a1a?style=flat-square" alt="PRs Welcome">
-  <a href="https://powerisvansh.github.io/Tatto/"><img src="https://img.shields.io/badge/live-demo-cf4646?style=flat-square&logo=githubpages" alt="Live Demo"></a>
 
-  <br/><br/>
+<br/>
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Archivo+Black&size=52&pause=1000&color=CF4646&center=true&vCenter=true&repeat=false&width=700&height=90&lines=INK+%26+STEEL">
-    <img src="https://readme-typing-svg.demolab.com?font=Archivo+Black&size=52&pause=1000&color=111111&center=true&vCenter=true&repeat=false&width=700&height=90&lines=INK+%26+STEEL" alt="Ink & Steel">
-  </picture>
+<!-- HERO BANNER -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Archivo+Black&size=52&pause=1000&color=CF4646&center=true&vCenter=true&repeat=false&width=700&height=90&lines=INK+%26+STEEL">
+  <img src="https://readme-typing-svg.demolab.com?font=Archivo+Black&size=52&pause=1000&color=111111&center=true&vCenter=true&repeat=false&width=700&height=90&lines=INK+%26+STEEL" alt="Ink & Steel">
+</picture>
 
-  <br/>
+<br/>
 
-  <h3>A premium tattoo studio landing page — dark, bold, and immersive.</h3>
-  <p><em>Brooklyn's finest custom tattoo artistry.</em></p>
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-▶-cf4646?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=1a1a1a)](https://powerisvansh.github.io/Tatto/)
+&nbsp;&nbsp;&nbsp;
+[![Repo](https://img.shields.io/badge/REPO-←-111111?style=for-the-badge&logo=github&logoColor=white&labelColor=cf4646)](https://github.com/Powerisvansh/Tatto)
 
-  <br/>
+<br/>
 
-  <a href="#-features">Features</a> &nbsp;•&nbsp;
-  <a href="#-preview">Preview</a> &nbsp;•&nbsp;
-  <a href="#-tech-stack">Tech Stack</a> &nbsp;•&nbsp;
-  <a href="#-sections">Sections</a> &nbsp;•&nbsp;
-  <a href="#-getting-started">Getting Started</a> &nbsp;•&nbsp;
-  <a href="#-license">License</a>
+```
+╔══════════════════════════════════════════════════╗
+║  A premium tattoo studio landing page           ║
+║  — dark, bold, and immersive.                   ║
+║  Brooklyn's finest custom tattoo artistry.      ║
+╚══════════════════════════════════════════════════╝
+```
 
-  <br/><br/>
+<br/>
+
 </div>
+
+<br/>
 
 ---
 
+<!-- BADGE ROW -->
+<div align="center">
+
+[![Status](https://img.shields.io/badge/status-live-brightgreen?style=flat-square)]()
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)]()
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)]()
+[![License](https://img.shields.io/badge/license-MIT-cf4646?style=flat-square)]()
+[![PRs](https://img.shields.io/badge/PRs-welcome-8b1a1a?style=flat-square)]()
+[![No deps](https://img.shields.io/badge/dependencies-none-2ea44f?style=flat-square)]()
+[![Stars](https://img.shields.io/github/stars/Powerisvansh/Tatto?style=flat-square&color=cf4646)]()
+[![Forks](https://img.shields.io/github/forks/Powerisvansh/Tatto?style=flat-square&color=8b1a1a)]()
+
+</div>
+
 <br/>
+
+---
+
+<!-- TOC -->
+<div align="center">
+
+[Overview](#-overview) &nbsp;·&nbsp;
+[Features](#-features) &nbsp;·&nbsp;
+[Sections](#-sections) &nbsp;·&nbsp;
+[Tech Stack](#-tech-stack) &nbsp;·&nbsp;
+[Getting Started](#-getting-started) &nbsp;·&nbsp;
+[File Structure](#-file-structure) &nbsp;·&nbsp;
+[License](#-license)
+
+</div>
+
+<br/>
+
+---
 
 ## ✦ Overview
 
-**Ink & Steel** is a hand-crafted, single-page website for a fictional Brooklyn-based tattoo studio. Built from scratch with vanilla HTML, CSS, and JavaScript — no frameworks, no build tools, no dependencies. Every animation, interaction, and layout is custom-tailored to reflect the studio's gritty, industrial aesthetic.
+<br/>
+
+**Ink & Steel** is a hand-crafted, single-page website for a fictional Brooklyn-based tattoo studio. Built from scratch with **vanilla HTML, CSS, and JavaScript** — no frameworks, no build tools, no dependencies. Every animation, interaction, and layout is custom-tailored to reflect the studio's gritty, industrial aesthetic.
 
 <br/>
+
+<div align="center">
+
+### Stats
+
+<br/>
+
+| <sub>📄</sub> HTML | <sub>🎨</sub> CSS | <sub>⚡</sub> JS | <sub>📦</sub> Dependencies | <sub>⏱️</sub> Build Step |
+|:---:|:---:|:---:|:---:|:---:|
+| **1** file | **1** file | **1** file | **Zero** | **None** |
+| Semantic, ARIA | 714 lines, Grid/Flexbox | 258 lines, ES6+ | Pure vanilla | Open & use |
+
+</div>
+
+<br/>
+
+---
 
 ## ✦ Live Demo
 
-**[→ powerisvansh.github.io/Tatto](https://powerisvansh.github.io/Tatto/)**
+<br/>
+
+<div align="center">
+
+### [🚀 Launch Live Site →](https://powerisvansh.github.io/Tatto/)
+
+<a href="https://powerisvansh.github.io/Tatto/">
+  <img src="https://img.shields.io/badge/powerisvansh.github.io%2FTatto-cf4646?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo URL" />
+</a>
 
 <br/>
 
+```
+┌─────────────────────────────────────────────────┐
+│    ⚡ Click the badge above to see it live ⚡     │
+└─────────────────────────────────────────────────┘
+```
+
+</div>
+
+<br/>
+
+---
+
 ## ✦ Features
 
-|  |  |
+<br/>
+
+### Core Experience
+
+| | |
 |---|---|
-| 🎨 **Dark Industrial Design** | Custom color palette, noise texture overlay, and red/gold accents |
+| 🎨 **Dark Industrial Design** | Custom color palette, noise texture overlay, red/gold accents |
 | 🖱️ **Custom Cursor Glow** | Smooth lerp-based radial glow that follows the mouse |
 | 🎞️ **Parallax Scrolling** | Multi-layer parallax with per-element speed control |
-| 🖼️ **Lightbox Gallery** | Full-screen modal with keyboard navigation (arrows + escape) |
+| 🖼️ **Lightbox Gallery** | Full-screen modal with arrow-key / escape navigation |
 | 📱 **Fully Responsive** | 4 breakpoints adapting from 4K down to mobile (480px) |
-| 🔢 **Animated Counters** | IntersectionObserver-triggered stats (5000+ tattoos, 8 artists, etc.) |
-| 📝 **Booking Form** | Client-side validation with live feedback per field |
+| 🔢 **Animated Counters** | IntersectionObserver-triggered stat counters |
 | ♿ **Accessible** | ARIA labels, roles, keyboard navigation, semantic HTML |
+
+<br/>
+
+### Animations & Effects
+
+| | |
+|---|---|
 | 🎭 **Scroll Reveals** | Staggered fade-in animations on scroll via IntersectionObserver |
 | 🏷️ **Infinite Marquee** | Horizontal scrolling ticker of tattoo styles |
 | 🔥 **Mobile Hamburger** | Slide-in mobile nav with animated hamburger-to-close |
@@ -68,103 +149,125 @@
 | 📊 **Scroll Progress Bar** | Top-of-page progress indicator synced to scroll |
 | 🎬 **Hero Animations** | Background zoom, ink drip SVGs, tattoo machine with needle stroke |
 | 🌫️ **Noise Texture** | SVG fractal noise overlay across entire page |
+
+<br/>
+
+### Functionality
+
+| | |
+|---|---|
+| 📝 **Booking Form** | Client-side validation with live feedback per field |
 | 🎯 **Live Form Validation** | Per-field validation on blur with success/error states |
 | 💬 **Quote Banner** | Centered blockquote with decorative line flourishes |
 
 <br/>
 
+---
+
 ## ✦ Preview
 
+<br/>
+
+<div align="center">
+
 ```
-┌─────────────────────────────────────────────────┐
-│  ┌─────┐  ┌────────┐  ┌────┐  ┌───────┐  ┌───┐ │
-│  │ Home │  │ Artists │  │Gallery│  │ Styles│  │Book│ │
-│  └─────┘  └────────┘  └────┘  └───────┘  └───┘ │
-├─────────────────────────────────────────────────┤
-│                                                 │
-│           █████ WEAR YOUR STORY █████           │
-│           █████  Custom Tattoos   █████         │
-│                                                 │
-│         [Book Consultation] [View Gallery]       │
-│                                                 │
-│   5000+ Tattoos  •  8 Artists  •  4.9 ★  • 10yr │
-│                                                 │
-├─────────────────────────────────────────────────┤
-│  Custom • Piercings • Cover-ups • Fine Line • … │
-├─────────────────────────────────────────────────┤
-│  ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐          │
-│  │Jake  │ │Marcus│ │ Lena│ │Sasha│          │
-│  │Ryder │ │ Chen │ │Orlov│ │ Voss│          │
-│  └──────┘ └──────┘ └──────┘ └──────┘          │
-├─────────────────────────────────────────────────┤
-│           ☆ Portfolio Grid (16 pieces) ☆        │
-├─────────────────────────────────────────────────┤
-│  Traditional • Blackwork • Realism • Japanese   │
-│  Fine Line • Cover-ups                          │
-├─────────────────────────────────────────────────┤
-│  "Your skin is a canvas. Make it a masterpiece."│
-├─────────────────────────────────────────────────┤
-│  Booking Form                    Contact Info   │
-│  ┌──────────────────┐         42 Needle Street │
-│  │ Full Name        │         Brooklyn, NY     │
-│  │ Email            │         +1 (718) 555-IN@@K1│
-│  │ Phone            │         Tue-Sat 12PM-9PM │
-│  │ Style ▼          │                           │
-│  │ Artist ▼         │                           │
-│  └──────────────────┘                           │
-├─────────────────────────────────────────────────┤
-│  Aftercare: Clean • Don't Scratch • Avoid Sun  │
-│  Stay Hydrated                                  │
-├─────────────────────────────────────────────────┤
-│  © 2026 Ink & Steel Tattoo Studio              │
-│  IG  FB  YT  PI                                 │
-└─────────────────────────────────────────────────┘
+╔═══════════════════════════════════════════════════╗
+║  ┌─────┐ ┌────────┐ ┌──────┐ ┌──────┐ ┌────┐   ║
+║  │ Home│ │ Artists│ │Gallery│ │Styles│ │Book│   ║
+║  └─────┘ └────────┘ └──────┘ └──────┘ └────┘   ║
+╠═══════════════════════════════════════════════════╣
+║                                                   ║
+║        ███ WEAR YOUR STORY ███████████            ║
+║        ██████████  Custom Tattoos  ███            ║
+║                                                   ║
+║     [ Book Consultation ]  [ View Gallery ]       ║
+║                                                   ║
+║    5000+ Tattoos  ·  8 Artists  ·  4.9 ★  · 10yr ║
+║                                                   ║
+╠═══════════════════════════════════════════════════╣
+║  Custom · Piercings · Cover-ups · Fine Line · …  ║
+╠═══════════════════════════════════════════════════╣
+║  ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐            ║
+║  │ Jake │ │Marcus│ │ Lena │ │ Sasha│            ║
+║  │ Ryder│ │ Chen │ │Orlov │ │ Voss │            ║
+║  └──────┘ └──────┘ └──────┘ └──────┘            ║
+╠═══════════════════════════════════════════════════╣
+║         ☆  Portfolio Grid (16 pieces)  ☆         ║
+╠═══════════════════════════════════════════════════╣
+║  Traditional · Blackwork · Realism · Japanese    ║
+║  Fine Line · Cover-ups                           ║
+╠═══════════════════════════════════════════════════╣
+║   "Your skin is a canvas. Make it a masterpiece."║
+╠═══════════════════════════════════════════════════╣
+║  Booking Form              Contact Info           ║
+║  ┌──────────────────┐    42 Needle Street        ║
+║  │ Full Name        │    Brooklyn, NY            ║
+║  │ Email            │    +1 (718) 555-INK1       ║
+║  │ Phone            │    Tue–Sat 12PM–9PM        ║
+║  │ Style ▾          │                            ║
+║  │ Artist ▾         │                            ║
+║  └──────────────────┘                            ║
+╠═══════════════════════════════════════════════════╣
+║  Aftercare: Clean · Don't Scratch · Avoid Sun   ║
+║  Stay Hydrated                                   ║
+╠═══════════════════════════════════════════════════╣
+║  © 2026 Ink & Steel Tattoo Studio               ║
+║  IG  FB  YT  PI                                  ║
+╚═══════════════════════════════════════════════════╝
 ```
 
+</div>
+
 <br/>
+
+---
 
 ## ✦ Tech Stack
 
-```
-┌─────────────────────────────────────────────────────┐
-│  📄 HTML5   → Semantic markup, Open Graph, meta     │
-│  🎨 CSS3    → Custom properties, Grid, Flexbox,     │
-│               keyframe animations, responsive        │
-│  ⚡ JS      → Vanilla ES6+ — IntersectionObserver,  │
-│               DOM manipulation, form validation      │
-│  🔤 Fonts   → Archivo Black (headings)              │
-│               Inter (body)                           │
-│  🎨 Icons   → Inline SVGs (style cards), HTML       │
-│               entities (marquee ★, contact icons)    │
-│  🖼️ Media   → Unsplash / Pexels stock photography  │
-└─────────────────────────────────────────────────────┘
-```
+<br/>
+
+<div align="center">
+
+| Technology | Details |
+|:---:|---|
+| <sub>📄</sub> **HTML5** | Semantic markup, Open Graph, meta tags, ARIA landmarks |
+| <sub>🎨</sub> **CSS3** | Custom properties, Grid, Flexbox, keyframe animations, 4 responsive breakpoints, backdrop-filter, noise filter |
+| <sub>⚡</sub> **JavaScript** | Vanilla ES6+ — IntersectionObserver, DOM manipulation, form validation, cursor lerp (rAF) |
+| <sub>🔤</sub> **Fonts** | [Archivo Black](https://fonts.google.com/specimen/Archivo+Black) (headings) · [Inter](https://fonts.google.com/specimen/Inter) (body) |
+| <sub>🎨</sub> **Icons** | Inline SVGs (style cards) · HTML entities (marquee ★, contact icons) |
+| <sub>🖼️</sub> **Media** | [Unsplash](https://unsplash.com) / [Pexels](https://pexels.com) stock photography |
+
+</div>
 
 <br/>
+
+---
 
 ## ✦ Sections
 
+<br/>
+
 | # | Section | Highlights |
-|---|---------|------------|
+|:---:|---|---|
 | 1 | **Loading Screen** | Animated spinner + brand reveal on load |
-| 2 | **Hero** | Parallax background, tattoo machine SVG, ink drips, CTA buttons |
-| 3 | **Marquee** | Continuous ticker: Custom · Piercings · Cover-ups · and more |
-| 4 | **Artists** | 4 artist cards — Jake Ryder, Marcus Chen, Lena Orlov, Sasha Voss |
+| 2 | **Hero** | Parallax bg, tattoo machine SVG, ink drips, dual CTA buttons |
+| 3 | **Marquee** | Continuous ticker — Custom · Piercings · Cover-ups · and more |
+| 4 | **Artists** | 4 cards — Jake Ryder, Marcus Chen, Lena Orlov, Sasha Voss |
 | 5 | **Gallery** | 16-piece grid with hover zoom + grayscale-to-color effect |
-| 6 | **Styles** | 6 style cards with SVG icons — Traditional, Blackwork, Realism, etc. |
-| 7 | **Booking** | Contact info + validated form (name, email, phone, style, artist, description) |
-| 8 | **Aftercare** | 4 care tips: Clean, Don't Scratch, Avoid Sun, Stay Hydrated |
+| 6 | **Styles** | 6 style cards with custom SVG icons |
+| 7 | **Booking** | Contact info + validated form (name, email, phone, style, artist, desc) |
+| 8 | **Aftercare** | 4 healing tips — Clean, Don't Scratch, Avoid Sun, Stay Hydrated |
 | 9 | **Quote** | Studio motto blockquote with decorative line flourishes |
-| 10 | **Footer** | Social links (IG, FB, YT, PI), contact details, copyright |
+| 10 | **Footer** | Socials (IG, FB, YT, PI), contact details, copyright |
 
 <br/>
 
-## ✦ Data Attributes
+### Data Attributes
 
-Custom `data-*` attributes used in the HTML for JS-driven behavior:
+Custom `data-*` attributes for JS-driven behavior:
 
 | Attribute | Applied To | Purpose |
-|-----------|-----------|---------|
+|:---|:---|---|
 | `data-speed` | `.parallax-section` | Parallax scroll speed (float, e.g. `-0.15`) |
 | `data-target` | `.counter` | Target number for animated counter |
 | `data-suffix` | `.counter` | Counter suffix (default `+`; empty for `4.9`) |
@@ -172,53 +275,90 @@ Custom `data-*` attributes used in the HTML for JS-driven behavior:
 
 <br/>
 
+---
+
 ## ✦ Getting Started
+
+<br/>
 
 ```bash
 # Clone the repository
 git clone https://github.com/Powerisvansh/Tatto.git
 
-# Open directly in your browser
+# Open directly in your browser (no build step needed)
 cd Tatto
 start index.html
 ```
 
-No build step required. Open `index.html` in any modern browser and you're good to go.
+<br/>
+
+> **No build step required.** Open `index.html` in any modern browser and you're good to go.
 
 <br/>
 
+---
+
 ## ✦ File Structure
+
+<br/>
 
 ```
 Tatto/
-├── index.html       # Main HTML page — 10 sections (loader, hero, marquee,
-│                    #   artists, gallery+lightbox, styles, quote, booking,
-│                    #   aftercare, footer), inline SVGs, ARIA landmarks
-├── style.css        # All styles — 714 lines, custom properties, Grid/Flexbox,
-│                    #   8 keyframe animations, SVG noise filter, backdrop-filter,
-│                    #   4 responsive breakpoints (1100–480px), custom scrollbar
-├── script.js        # All JS — 258 lines, cursor lerp (rAF), parallax,
-│                    #   IntersectionObserver (counters + reveals), lightbox
-│                    #   with keyboard nav, form validation (blur + submit),
-│                    #   mobile hamburger menu, scroll progress bar
+├── index.html       # 10 sections, inline SVGs, ARIA landmarks
+├── style.css        # 714 lines — custom props, Grid/Flexbox,
+│                    # 8 keyframe animations, SVG noise filter,
+│                    # 4 responsive breakpoints (1100–480px)
+├── script.js        # 258 lines — cursor lerp, parallax,
+│                    # IntersectionObserver, lightbox + keyboard nav,
+│                    # form validation, hamburger menu, scroll bar
 └── README.md        # You are here
 ```
 
 <br/>
 
+---
+
 ## ✦ License
 
+<br/>
+
+<div align="center">
+
 Distributed under the **MIT License**.
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════╗
+║  Free to use, modify, and distribute.            ║
+║  Go build something awesome.                     ║
+╚══════════════════════════════════════════════════╝
+```
+
+</div>
 
 <br/>
 
 ---
 
 <div align="center">
-  <br/>
-  <sub>
-    Crafted with ❤️ and a lot of ink.<br/>
-    © 2026 — <a href="https://github.com/Powerisvansh">Powerisvansh</a>
-  </sub>
-  <br/><br/>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════╗
+║  Crafted with ❤️ and a lot of ink.               ║
+║                                                  ║
+║  © 2026 — Powerisvansh                          ║
+╚══════════════════════════════════════════════════╝
+```
+
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-Powerisvansh-1a1a1a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Powerisvansh)
+&nbsp;&nbsp;&nbsp;
+[![Live Demo](https://img.shields.io/badge/Live_Demo-→-cf4646?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=1a1a1a)](https://powerisvansh.github.io/Tatto/)
+
+<br/><br/>
+
 </div>
